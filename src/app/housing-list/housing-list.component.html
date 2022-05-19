@@ -1,1 +1,7 @@
 <p>housing-list works!</p>
+<label for="location-search">Search for a new place </label>
+
+<input id="location-search" placeholder="EX: Frankfurt"  #search/>
+<button (click)="searchingHousingLocations(search.value)">
+  Search
+</button>
